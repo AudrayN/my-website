@@ -1,0 +1,10 @@
+.banner {
+	background-image: url(../../images/fernando.jpg);
+	padding:  150px 0px;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.banner h1{
+	color:  whitesmoke;
+	font-size: 50px;
+}

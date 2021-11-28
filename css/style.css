@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url(components/banner.css);
+@import url(components/button.css);
+@import url(components/countainer.css);
+@import url(avatar.css);
+
+
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 18px;
+}
+/*NAVBAR*/
+.navbar-light 
+.navar-expand{
+	-sm
+}
+/*SIDEBAR*/
+.sidebar{
+	position: fixed;
+	width:  200px;
+	top: 0;
+	left: 10px;
+	bottom: 0;
+}
+
+.page-content{ 
+margin-left: 140px
+}
+
+.sidebar ul{
+	list-style:none;
+	padding-left: 0px;
+
+}
+.countainer{
+	width:  35px;
+	margin:  200px auto;
+}
+
+/*MEDIA QUIRES*/
+@media (max-width: 960px) {
+	.container{
+		width: 700px;
+		background-color: ghostwhite;
+	}
+	.card-pink{
+		width: 700px;
+		background-color: ghostwhite;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+		background-image: ghostwhite;
+	}
+	.card-pink{
+		width: 500px;
+		background-color: ghostwhite;
+	}
+}	
+	
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+		background-image: ghostwhite;
+	}
+	.card-pink{
+		width: 300px;
+		background-color: ghostwhite;
+	}
+}
