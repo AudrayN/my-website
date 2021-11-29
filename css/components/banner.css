@@ -1,0 +1,14 @@
+.banner {
+	background-image: url(../../images/Breakfast.jpg);
+	padding:10px 100px;
+	height: 500px;
+	width: 900px;
+	background-size: 1456px auto;
+	background-attachment: fixed;
+	display: inline-block;
+	margin: 40px auto;
+}
+.banner h1{
+	color:  whitesmoke;
+	font-size: 50px;
+}

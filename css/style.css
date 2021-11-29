@@ -1,0 +1,155 @@
+@import url(components/banner.css);
+@import url(components/button.css);
+@import url(components/container.css);
+@import url(components/avatar.css);
+
+
+body{
+	font-family: 'Libre Baskerville', serif;
+	font-size: 18px;
+}
+
+h1{ 
+	font-family: 'Libre Baskerville', serif;
+	font-size: 15px;
+	text-align: center;
+ }
+
+ h2{
+ 	font-family: 'Libre Baskerville', serif;
+ 	font-size: 78px;
+ 	text-align: center;
+ 	color: whitesmoke;
+ }
+
+p{
+	font-family: 'Libre Baskerville', serif;
+	font-size: 15px;
+	text-align: center;
+	color: black;
+}
+/*CARDS*/
+.card-white{
+	background-color: floralwhite;
+	margin: 40px auto;
+	padding: 34px 45px;
+	box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.5);
+}
+.cards{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card-white{
+	flex-basis: 250px;
+	flex-grow: 1;
+	margin: 10px;
+	text-align: center;
+}
+
+.card h3 {
+  flex-grow: 1;
+  padding-left: 20px 70px;
+}
+
+/*SIDEBAR*/
+
+.sidebar{
+	position: fixed;
+	width:94px;
+	top: 0px;
+	left: 0px;
+	bottom: 0;
+	background-color: floralwhite;
+}
+
+.page-content{ 
+	margin-top: 10px;
+	margin-left: 190px;
+}
+
+.sidebar ul{
+	list-style:none;
+	padding-left: 0px;
+	color: black;
+}
+
+#logo{
+	width: 100px;
+	text-align: center;
+	display: inline-block;
+}
+
+/*SOCIAL MEDIA*/
+
+.list-inline {
+	list-style: none;
+	text-align: center;
+	padding-left: 0;
+	color: black;
+}
+
+.list-inline li{
+	font-size: 30px;
+	transition: font-size 2s;
+	text-decoration: none;
+	display: inline;
+	padding: 0.50px;
+}
+
+.list-inline li:hover{
+  font-size: 50px;
+}
+
+/*MEDIA QUIRES*/
+@media (max-width: 960px) {
+	.banner{
+		width: 700px;
+	}
+	.container{
+		width: 700px;
+		background-color: #FAFAFA;
+	}
+	.card-white{
+		width: 700px;
+		background-color: #FAFAFA;
+	}
+}
+
+@media (max-width: 720px) {
+	.banner{
+		width: 500px;
+	}
+	.container {
+		width: 500px;
+		background-image: #FAFAFA;
+	}
+	.card-white{
+		width: 500px;
+		background-color: #FAFAFA;
+	}
+
+}	
+	
+@media (max-width: 540px) {
+	.banner{
+		width: 300px;
+	}
+	.container {
+		width: 300px;
+		background-image: #FAFAFA;
+	}
+	.card-white{
+		width: 300px;
+		background-color: #FAFAFA;
+	}
+}
+
+@media (max-width: 700px) {
+	.sidebar {
+    width: 200%;
+    height: aUTO;
+    position: relative;
+
+	}
+}

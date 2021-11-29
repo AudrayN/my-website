@@ -1,0 +1,13 @@
+.button-pink{
+	display:inline-block;
+	background-color:#F7DAD9; 
+	color:black;
+	padding:  20px;
+	border-radius: 10px;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 18px;
+}
+.button-pink:hover{ 
+	text-decoration: none;
+	color : white;
+}
